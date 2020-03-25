@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_admin_navigation"
+    app:startDestination="@+id/nav_admin_home">
+
+    <fragment
+        android:id="@+id/nav_admin_home"
+        android:name="com.example.android.digitalcoursefile.AdminHomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_admin_home" />
+
+    <fragment
+        android:id="@+id/nav_admin_files"
+        android:name="com.example.android.digitalcoursefile.AdminFilesFragment"
+        android:label="Files"
+        tools:layout="@layout/fragment_admin_files" />
+
+    <fragment
+        android:id="@+id/nav_admin_courses"
+        android:name="com.example.android.digitalcoursefile.AdminCoursesFragment"
+        android:label="Courses"
+        tools:layout="@layout/fragment_admin_courses" />
+
+    <fragment
+        android:id="@+id/nav_admin_feedback"
+        android:name="com.example.android.digitalcoursefile.AdminFeedbackFragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_admin_feedback" />
+
+    <fragment
+        android:id="@+id/nav_admin_personal"
+        android:name="com.example.android.digitalcoursefile.AdminPersonalFragment"
+        android:label="Personal"
+        tools:layout="@layout/fragment_admin_personal" />
+
+</navigation>

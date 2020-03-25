@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CourseApprovalAdapter"
+
+    android:orientation="vertical"
+    android:background="#010102"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username "
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:textColor="@color/textYellow"/>
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course ID "
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:textColor="@color/textYellow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Approve"
+            android:background="@drawable/round"
+            android:textColor="@color/textWhite"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reject"
+            android:background="@drawable/round"
+            android:textColor="@color/textWhite"
+            android:layout_margin="16dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

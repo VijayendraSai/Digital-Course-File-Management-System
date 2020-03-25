@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".LogAdapter"
+    android:orientation="vertical"
+    android:background="#010102"
+    android:layout_margin="8dp"
+    >
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:textColor="@color/textYellow"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:textColor="@color/textYellow"
+        android:text="Course ID" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:textColor="@color/textYellow"
+        android:text="Content" />
+</LinearLayout>

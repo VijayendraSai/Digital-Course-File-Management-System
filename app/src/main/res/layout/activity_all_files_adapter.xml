@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AllFilesAdapter"
+    android:orientation="vertical"
+    android:background="#010102"
+    android:layout_margin="8dp"
+    >
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="Username"
+        android:textColor="@color/textYellow"/>
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+
+        android:text="File Name"
+        android:textColor="@color/textYellow"/>
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="Course ID"
+        android:textColor="@color/textYellow"/>
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Type"
+        android:textColor="@color/textYellow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="File URL"
+            android:textColor="@color/textYellow"/>
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text=""
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</LinearLayout>
